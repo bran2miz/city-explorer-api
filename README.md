@@ -19,9 +19,15 @@ Step 1: **WhiteBoard**- ![WhiteBoard Image](whiteboard-lab-07.png)
 
 ## Change Log
 
-<!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
+Name of feature: ________________________________
 
-01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
+Estimate of time needed to complete: _____
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
 
 ## Credit and Collaborations
 
