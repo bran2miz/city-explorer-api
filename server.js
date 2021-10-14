@@ -20,6 +20,8 @@ app.get('/', (request, response) => {
   response.status(200).send('Go To: HOME');
 });
 
+// Constructor Classes (state)
+
 class Forecast{
   constructor(date, description) {
     this.date = date;
@@ -27,18 +29,13 @@ class Forecast{
   }
 }
 
-class Films{
-  constructor(title, overview, average_votes, total_votes, popularity, released) {
-    this.title = title;
-    this.overview = overview;
-    this.average_votes = average_votes;
-    this.total_votes = total_votes;
-    this.popularity = popularity;
-    this.released = released;
+class Movie {
+  constructor(data) {
+    this.data = data;
   }
 }
 
-
+//(GET)
 app.get('/weather', async (request, response) => {
   const lat = request.query.lat;
   const lon = request.query.lon;
@@ -59,26 +56,19 @@ app.get('/weather', async (request, response) => {
 });
 
 app.get('/movies', async (request, response) => {
-  const searchQuery = request.query.searchQuery;
+  try {
+    const { searchQuery } = request.query;
+    let resultsArray = [];
+    let url = `https://api.themoviedb.org/3/search/movie?api_key=${process.env.MOVIE_API_KEY}&query=${searchQuery}&page=1`;
+    let moviesResponse = await axios.get(url);
 
-  const movieUrl = `https://api.themoviedb.org/3/search/movie?api_key=${process.env.MOVIE_API_KEY}&language=en-US&query=${searchQuery}&page=1&include_adult=false`;
-  try{
-    const movieResponse = await axios.get(movieUrl);
-    console.log(movieResponse.data.results);
-
-    const filmsArr = arr => {
-
-      return arr.map(obj => {
-
-        return new Films (obj.title, obj.overview, obj.votes_average, obj.votes_total, obj.popularity, obj.release_date);
-
-      });
-
-    };
-    response.status(200).send(filmsArr(movieResponse.data.results));
-
+    moviesResponse.data.results.map(movie => {
+      resultsArray.push(new Movie (movie));
+    });
+    response.send(resultsArray);
   } catch (error) {
-    console.error(error.message);
+    console.log(error);
+    response.status(404).send('Something went wrong with requested movie data!');
   }
 });
 
