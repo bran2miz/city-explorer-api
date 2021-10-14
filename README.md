@@ -9,7 +9,9 @@ This application, City Explorer, utilizes the Axios library to render user's req
 
 ## Getting Started
 
-Step 1: **WhiteBoard**- ![WhiteBoard Image](whiteboard-lab-07.png)
+Step 1: **WhiteBoard**- ![Lab 07](whiteboard-lab-07.png)
+
+Step 2: **WhiteBoard** - ![Lab 08](whiteboard-lab-08.png)
 
 ## Architecture
 
