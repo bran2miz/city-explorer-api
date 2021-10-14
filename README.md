@@ -23,6 +23,7 @@ Step 2: **WhiteBoard** - ![Lab 08](whiteboard-lab-08.png)
 
 ## Change Log
 
+**Lab 07**
 Name of feature: lab-07-express
 
 Estimate of time needed to complete: 4 hours
@@ -32,6 +33,21 @@ Start time: 1:20
 Finish time: 5:00
 
 Actual time needed to complete: 4 hr 20 min
+
+Change Log: 10/09/21 API for Weather Forecast
+
+**Lab 08**
+Name of feature: lab-08
+
+Estimate of time needed to complete: 6 hours
+
+Start time: 5:15pm
+
+Finish time: 8:45
+
+Actual time needed to complete: 3 1/2 hours
+
+Change Log: 10/13/21 Movie and Weather API with heroku
 
 ## Credit and Collaborations
 
