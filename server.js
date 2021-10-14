@@ -61,7 +61,6 @@ app.get('/movies', async (request, response) => {
     let resultsArray = [];
     let url = `https://api.themoviedb.org/3/search/movie?api_key=${process.env.MOVIE_API_KEY}&query=${searchQuery}&page=1`;
     let moviesResponse = await axios.get(url);
-
     moviesResponse.data.results.map(movie => {
       resultsArray.push(new Movie (movie));
     });
