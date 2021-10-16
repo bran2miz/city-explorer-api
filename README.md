@@ -70,4 +70,22 @@ JP Jones
 
 5. Is the assignment complete? If not, where exactly did you leave off, and what work remains?
   The assignment is complete! Perhaps tomorrow or monday I can stylizes the page to create a more attractive looking rendered, weather data.
-  
+
+## Retrospective Lab - 08
+
+1. What went well, that I might forget if I don’t write down?
+  The one thing I would say that went well was the backend surprisingly!  
+
+2. What did I learn today?
+  Heroku (via code review on thursday)
+
+3. What should I do differently next time?
+  Ask for help for heroku (I had an incredibly difficult time figuring out why the heroku app was not working, and the weather and movie data was not rendering on my netlify)
+
+4. What still puzzles me, or what do I need to learn more about?
+  I still believe I have issues with heroku, but I think I will ask in the future if I have any more issues
+
+Thinking about each of your assignments for the day, reflect on:
+
+1. Is the assignment complete? If not, where exactly did you leave off, and what work remains?
+  Yes! the app works, just the heroku server is still a little confusing to me.
