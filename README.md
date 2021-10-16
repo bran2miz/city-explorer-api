@@ -13,6 +13,8 @@ Step 1: **WhiteBoard**- ![Lab 07](whiteboard-lab-07.png)
 
 Step 2: **WhiteBoard** - ![Lab 08](whiteboard-lab-08.png)
 
+Step 3: **WhiteBoard** - ![Lab 09](whiteboard-lab-09.png)
+
 ## Architecture
 
 -Express
@@ -48,6 +50,17 @@ Finish time: 8:45
 Actual time needed to complete: 3 1/2 hours
 
 Change Log: 10/13/21 Movie and Weather API with heroku
+
+**Lab 09**
+Name of feature: lab-09-modules
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 12:30
+
+Finish time: 2:00
+
+Actual time needed to complete: 1 1/2 hours
 
 ## Credit and Collaborations
 
@@ -89,3 +102,22 @@ Thinking about each of your assignments for the day, reflect on:
 
 1. Is the assignment complete? If not, where exactly did you leave off, and what work remains?
   Yes! the app works, just the heroku server is still a little confusing to me.
+
+## Retrospective Lab 09
+
+1. What went well, that I might forget if I don’t write down?
+  This lab was fairly simple in that we had to componentize the back end using the modules formula.
+
+2. What did I learn today?
+  Modules and how it makes the backend server.js more organized and clean.
+
+3. What should I do differently next time?
+  Nothing! Like I had mentioned, it was a fairly simple lab today, as I was all caught up with the past labs.
+
+4. What still puzzles me, or what do I need to learn more about?
+  Still a little confused as to why in class today we created functions that did not require async.
+
+Thinking about each of your assignments for the day, reflect on:
+
+1. Is the assignment complete? If not, where exactly did you leave off, and what work remains?
+  The assignment is complete!
