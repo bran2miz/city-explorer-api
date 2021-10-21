@@ -15,6 +15,8 @@ Step 2: **WhiteBoard** - ![Lab 08](whiteboard-lab-08.png)
 
 Step 3: **WhiteBoard** - ![Lab 09](whiteboard-lab-09.png)
 
+Step 4: **WhiteBoard** - ![Lab 10](whiteboard-lab-10.png)
+
 ## Architecture
 
 -Express
@@ -61,6 +63,17 @@ Start time: 12:30
 Finish time: 2:00
 
 Actual time needed to complete: 1 1/2 hours
+
+**Lab 10**
+Name of feature: lab-10-cache
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 5:10
+
+Finish time: 7:42
+
+Actual time needed to complete: 2 and 1/2 hours
 
 ## Credit and Collaborations
 
@@ -121,3 +134,22 @@ Thinking about each of your assignments for the day, reflect on:
 
 1. Is the assignment complete? If not, where exactly did you leave off, and what work remains?
   The assignment is complete!
+
+## Retrospective Lab 10
+
+1. What went well, that I might forget if I don’t write down?
+  I would say the creating the boiler point cache file was very easy in this lab.
+
+2. What did I learn today?
+  Cache and storing data for a period of time.
+
+3. What should I do differently next time?
+  I think I should definitely check all of my variable names, as that was a point of contention (it was the reason why my code was breaking).
+
+4. What still puzzles me, or what do I need to learn more about?
+  Still a little puzzled by cache and what it actually does.
+
+Thinking about each of your assignments for the day, reflect on:
+
+1. Is the assignment complete? If not, where exactly did you leave off, and what work remains?
+  I believe that the assignment is complete. During next class, I hope to see what exactly a complete cache looks like.
